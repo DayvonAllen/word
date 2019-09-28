@@ -1,0 +1,7 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "advanced-words",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

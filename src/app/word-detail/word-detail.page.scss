@@ -1,0 +1,185 @@
+ion-toolbar {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ion-title {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+ion-icon {
+  font-size: 2.4rem;
+  margin-top: 0.4rem;
+}
+ion-content{
+  height: 120vh;
+  
+}
+ion-card {
+  text-align: left;
+  height: 29rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#word {
+  font-weight: 400;
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-top: 1.1rem;
+}
+
+#type {
+  margin-top: 0.1rem !important;
+}
+.example {
+  color: #000000 !important;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 370px) and (min-width: 250px) {
+  ion-toolbar {
+    height: 5rem !important;
+  }
+  ion-title {
+    font-size: 1.4rem !important;
+  }
+  // ion-card {
+  //   margin-top: 8% !important;
+  // }
+}
+@media (max-height: 736px) and (min-height: 730px) and (max-width: 414px) and (min-width: 410px) {
+  ion-title {
+    font-size: 1.9rem;
+  }
+  ion-toolbar {
+    height: 4rem;
+  }
+  // ion-card {
+  //   margin-top: 10%;
+  // }
+}
+@media (max-height: 669px) and (max-width: 400px) {
+  ion-title {
+    font-size: 1.9rem;
+  }
+  ion-toolbar {
+    height: 3.5rem;
+  }
+  // ion-card {
+  //   margin-top: 7%;
+  // }
+}
+//iphone10
+@media (min-width: 375px) and (max-height: 812px) {
+  // ion-card {
+  //   margin-top: 10%;
+  // }
+  ion-toolbar {
+    height: 6rem;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 450px) {
+  ion-title {
+    font-size: 1.9rem;
+  }
+  ion-toolbar {
+    height: 6rem;
+  }
+  // ion-card {
+  //   margin-top: 15%;
+  // }
+}
+
+@media (min-width: 771px) {
+  .example {
+    font-size: 3.5rem;
+  }
+
+  ion-toolbar {
+    height: 8rem;
+  }
+  ion-card {
+    // margin-top: 24%;
+    height: 40rem;
+  }
+
+  .translation {
+    font-size: 2rem;
+  }
+
+  #word {
+    font-size: 5rem;
+  }
+  ion-icon {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  ion-back-button {
+    font-size: 2.3rem;
+  }
+
+  ion-title {
+    font-size: 2.9rem;
+  }
+}
+@media (min-width: 650px) and (max-width: 770px) {
+  ion-toolbar {
+    height: 6.5rem;
+  }
+
+  .example {
+    font-size: 2.8rem;
+  }
+
+  ion-back-button {
+    font-size: 1.7rem;
+  }
+  ion-title {
+    font-size: 2.4rem;
+  }
+
+  ion-card {
+    // margin-top: 22%;
+    height: 34.5rem;
+  }
+
+  .translation {
+    font-size: 1.5rem;
+  }
+
+  #word {
+    font-size: 4rem;
+  }
+  ion-icon {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,5 +1,7 @@
 {
   "name": "advanced-words",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
